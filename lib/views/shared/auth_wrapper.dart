@@ -4,7 +4,7 @@ import 'package:chat_app/views/ui/login_view.dart';
 import 'package:flutter/material.dart';
 
 class AuthenticationWrapper extends StatefulWidget {
-  AuthenticationWrapper({Key? key}) : super(key: key);
+  const AuthenticationWrapper({Key? key}) : super(key: key);
 
   @override
   State<AuthenticationWrapper> createState() => _AuthenticationWrapperState();
